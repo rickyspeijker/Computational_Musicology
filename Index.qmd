@@ -87,10 +87,10 @@ The timbre-based SSM (MFCC) emphasizes production and texture shifts, making sec
 
 Together, these representations provide complementary perspectives on the structural organization of EDM music.
 
-# Week 10 – Key and Chord Estimation
+# Week 10 – Key and Chord Analysis
 
-This week extends the dashboard with an analysis of keys and chords using chroma features and template matching.
+For Week 10, I analysed chroma features for the class corpus track *Those Magic Changes* from the musical Grease.
 
-```{r}
-library(tidyverse)
-library(compmus)
+The figure below shows the distribution of pitch-class energy over time.
+
+![](grease_chroma_analysis.png)
