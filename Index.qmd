@@ -1,6 +1,8 @@
 ---
 title: "Computational Musicology"
-format: dashboard
+format:
+  dashboard:
+    orientation: columns
 ---
 
 ## Week 7 – Corpus Description & Spotify Feature Visualisation
@@ -84,3 +86,11 @@ Overall, both representations reveal a strong sectional structure typical of EDM
 The timbre-based SSM (MFCC) emphasizes production and texture shifts, making section boundaries more pronounced. In contrast, the chroma-based SSM highlights harmonic repetition, showing recurring chord progressions and internal similarities within sections. Although both matrices display similar global structure, they focus on different musical aspects: timbre captures changes in instrumentation and intensity, while chroma captures harmonic consistency.
 
 Together, these representations provide complementary perspectives on the structural organization of EDM music.
+
+# Week 10 – Key and Chord Estimation
+
+This week extends the dashboard with an analysis of keys and chords using chroma features and template matching.
+
+```{r}
+library(tidyverse)
+library(compmus)
