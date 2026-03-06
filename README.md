@@ -77,3 +77,11 @@ Overall, both representations reveal a strong sectional structure typical of EDM
 The timbre-based SSM (MFCC) emphasizes production and texture shifts, making section boundaries more pronounced. In contrast, the chroma-based SSM highlights harmonic repetition, showing recurring chord progressions and internal similarities within sections. Although both matrices display similar global structure, they focus on different musical aspects: timbre captures changes in instrumentation and intensity, while chroma captures harmonic consistency.
 
 Together, these representations provide complementary perspectives on the structural organization of EDM music.
+
+# Week 10 – Key and Chord Analysis
+
+For Week 10, I analysed chroma features for the class corpus track *Those Magic Changes* from the musical *Grease*.
+
+The figure below shows the distribution of pitch-class energy over time. Stronger colour intensity indicates stronger activation of a pitch class at a given moment. This visualisation reveals harmonic repetition and changing tonal emphasis across the track, which supports chord-based interpretation of the song’s structure.
+
+<img width="3000" height="1500" alt="grease_chroma_analysis" src="https://github.com/user-attachments/assets/07a9fb82-62a8-4148-aed5-148af2f53f47" />
