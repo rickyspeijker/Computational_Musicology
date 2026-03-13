@@ -85,3 +85,15 @@ For Week 10, I analysed chroma features for the class corpus track *Those Magic 
 The figure below shows the distribution of pitch-class energy over time. Stronger colour intensity indicates stronger activation of a pitch class at a given moment. This visualisation reveals harmonic repetition and changing tonal emphasis across the track, which supports chord-based interpretation of the song’s structure.
 
 <img width="3000" height="1500" alt="grease_chroma_analysis" src="https://github.com/user-attachments/assets/07a9fb82-62a8-4148-aed5-148af2f53f47" />
+
+# #Week 11 Novelty Function Analysis
+
+The figure below shows the novelty function for Pata Pata over the first 30 seconds of the track.
+
+![](novelty_plot.png)
+
+This novelty function shows the moments where the audio signal changes quickly. These changes often correspond to musical onsets or rhythmic events. The peaks in the graph therefore indicate points where something new happens in the music.
+
+Looking at the first 30 seconds of Pata Pata, the peaks appear quite regularly. This suggests that the track has a fairly stable rhythmic structure and a clear pulse. Because of this, the novelty function can be useful for simple beat tracking and for getting an idea of the tempo of the piece.
+
+Overall, this representation helps to give a first impression of the rhythm of the track. Although the novelty function does not directly calculate the tempo, it highlights rhythmic patterns that can be used to estimate beats and tempo.
